@@ -1,1 +1,12 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+
+body {
+    margin: 0;
+    /* font-family: 'Montserrat', "in"; */
+    background-color:  black;
+}
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 500px #1f2937 inset !important; 
+  -webkit-text-fill-color: white !important;
+}
